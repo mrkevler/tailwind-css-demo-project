@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Join Tailwind CSS Demo Project - Sign Up for Modern CSS Framework Learning"
+    />
+    <meta name="author" content="Tailwind CSS Demo by mrKevler" />
+    <title>Sign Up - Tailwind CSS Demo Project</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 min-h-screen">
+    <div class="min-h-screen flex">
+      <!-- Left Side - Illustration -->
+      <div
+        class="hidden lg:flex lg:w-1/2 bg-gradient-to-br from-purple-900 via-purple-800 to-purple-700 items-center justify-center p-12"
+      >
+        <div class="text-center text-white">
+          <!-- Coding Illustration Placeholder -->
+          <div class="mb-8">
+            <div
+              class="w-80 h-80 mx-auto bg-purple-600 rounded-2xl flex items-center justify-center"
+            >
+              <div class="text-center">
+                <!-- Simple programmer illustration -->
+                <div
+                  class="w-32 h-32 bg-purple-400 rounded-full mx-auto mb-4 flex items-center justify-center"
+                >
+                  <div
+                    class="w-20 h-20 bg-white rounded-lg flex items-center justify-center"
+                  >
+                    <span class="text-purple-600 text-2xl font-bold"
+                      >&lt;/&gt;</span
+                    >
+                  </div>
+                </div>
+                <div class="w-48 h-8 bg-purple-500 rounded mx-auto mb-2"></div>
+                <div class="w-32 h-4 bg-purple-400 rounded mx-auto"></div>
+              </div>
+            </div>
+          </div>
+          <h2 class="text-2xl font-bold mb-4">Join Coders Now!</h2>
+          <p class="text-purple-200">
+            Start your journey with Tailwind CSS and competitive programming
+          </p>
+        </div>
+      </div>
+
+      <!-- Right Side - Sign Up Form -->
+      <div class="flex-1 flex items-center justify-center p-8 lg:p-12">
+        <div class="w-full max-w-md">
+          <!-- Back to Home Link -->
+          <div class="mb-8">
+            <a
+              href="index.html"
+              class="text-purple-600 hover:text-purple-700 font-medium flex items-center"
+            >
+              <svg
+                class="w-4 h-4 mr-2"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M10 19l-7-7m0 0l7-7m-7 7h18"
+                ></path>
+              </svg>
+              Back to Home
+            </a>
+          </div>
+
+          <!-- Header -->
+          <div class="mb-8">
+            <h1 class="text-3xl font-bold text-gray-900 mb-2">
+              Join Coders Now!
+            </h1>
+            <p class="text-gray-600">
+              Create your account to access premium content and challenges
+            </p>
+          </div>
+
+          <!-- Sign Up Form -->
+          <form class="space-y-6">
+            <!-- First Name -->
+            <div>
+              <label
+                for="firstName"
+                class="block text-sm font-medium text-gray-700 mb-2"
+                >First Name</label
+              >
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                required
+                class="w-full px-4 py-3 bg-purple-900 text-white placeholder-purple-300 border border-purple-800 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                placeholder="Enter your first name"
+              />
+            </div>
+
+            <!-- Last Name -->
+            <div>
+              <label
+                for="lastName"
+                class="block text-sm font-medium text-gray-700 mb-2"
+                >Last Name</label
+              >
+              <input
+                type="text"
+                id="lastName"
+                name="lastName"
+                required
+                class="w-full px-4 py-3 bg-purple-900 text-white placeholder-purple-300 border border-purple-800 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                placeholder="Enter your last name"
+              />
+            </div>
+
+            <!-- Email -->
+            <div>
+              <label
+                for="email"
+                class="block text-sm font-medium text-gray-700 mb-2"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                class="w-full px-4 py-3 bg-purple-900 text-white placeholder-purple-300 border border-purple-800 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                placeholder="Enter your email"
+              />
+            </div>
+
+            <!-- Password -->
+            <div>
+              <label
+                for="password"
+                class="block text-sm font-medium text-gray-700 mb-2"
+                >Password</label
+              >
+              <input
+                type="password"
+                id="password"
+                name="password"
+                required
+                class="w-full px-4 py-3 bg-purple-900 text-white placeholder-purple-300 border border-purple-800 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                placeholder="Create a password"
+              />
+            </div>
+
+            <!-- Sign Up Button -->
+            <button
+              type="submit"
+              class="w-full bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 rounded-lg transition-colors"
+            >
+              Sign Up
+            </button>
+          </form>
+
+          <!-- Footer -->
+          <div class="mt-6 text-center">
+            <p class="text-sm text-gray-600">
+              Already have an account?
+              <a
+                href="sign-in.html"
+                class="text-purple-600 hover:text-purple-700 font-medium"
+                >Login</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/script/script.js"></script>
+  </body>
+</html>
