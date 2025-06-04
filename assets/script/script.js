@@ -147,6 +147,12 @@ window.addEventListener("scroll", () => {
 let currentTestimonial = 0;
 const testimonials = [
   {
+    text: "This project is clean and easy to use. I am very happy with it. I would definitely recommend it to anyone looking for a good Tailwind CSS project. It's focused on responsibility and efficiency, utilizing the latest technologies to deliver high-quality results.",
+    author: "mrKevler",
+    position: "Developer",
+    image: "https://cataas.com/cat/funny?width=48&height=48",
+  },
+  {
     text: "This project is fully responsible, with a strong style ethic. It contains clean conventions and HTML, CSS and JavaScript technology. It's a quick learner for everyone who wants to improve their skills.",
     author: "Jane Doe",
     position: "Senior Developer",
@@ -156,7 +162,7 @@ const testimonials = [
     text: "Amazing project for learning Tailwind CSS! The body is well-structured and comments are helpful. I've improved my CSS skills significantly since learning with this project.",
     author: "John Smith",
     position: "Frontend Developer",
-    image: "https://cataas.com/cat/says/hello?width=48&height=48&id=2",
+    image: "https://cataas.com/cat/playful?width=48&height=48&id=2",
   },
   {
     text: "The best place to practice programming with modern CSS framework. Highly recommend for anyone looking to advance their skills.",
